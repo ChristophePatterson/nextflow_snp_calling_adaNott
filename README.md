@@ -1,20 +1,22 @@
 # nextflow_snp_calling_computecanada
-Nextflow pipeline for Narval/Beluga Compute Canada HPC with SLURM
+Nextflow pipeline for Ada HPC at the university of Nottingham
+Altered by Christophe Patterson from the Narval/Beluga Compute Canada HPC with SLURM
 
 This pipeline takes paired-end fastq reads, a reference genome and a gff file and will produce:
 - a minimally filtered vcf (removing SNPs where all indidivuals are homozyogous ALT and any SNP with MQ < 30).
 - 3 depth statistics files per dataset: samples genes depth, samples windows depth and samples whole-genome depth.
 
-Login to ComputeCanada Narval or Beluga.
+Login to Ada.
 From a login node in your home dir run:
 
-<pre>module purge # Make sure that previously loaded modules are not polluting the installation 
-module load python/3.11
-module load rust # New nf-core installations will err out if rust hasn't been loaded
-module load postgresql # Will not use PostgresSQL here, but some Python modules which list psycopg2 as a dependency in the installation would crash without it.
-python -m venv nf-core-env
-source nf-core-env/bin/activate
-python -m pip install nf_core==2.13</pre>
+<pre>module purge # Make sure that previously loaded modules are not polluting the installation
+# Load nextflow via university preinstalled modules
+module load nextflow-uoneasy/25.04.6
+# Check python version
+python3 -V
+# Load singularity
+module load singularity/3.8.5
+</pre>
 
 
 Now, create or edit the file (you probably have to create it):  ~/.nextflow/config   
@@ -24,9 +26,9 @@ This is like a general config for EVERY workflow you will run with nextflow in t
 
 
 <pre>params {
-    config_profile_description = 'Alliance HPC config'
-    config_profile_contact = 'https://docs.alliancecan.ca/wiki/Technical_support'
-    config_profile_url = 'docs.alliancecan.ca/wiki/Nextflow'
+    config_profile_description = 'Ada HPC config'
+    config_profile_contact = 'https://uniofnottm.sharepoint.com/sites/DigitalResearch/SitePages/Ada-Compute-software.aspx'
+    config_profile_url = ''
 }
 
 
@@ -41,7 +43,7 @@ apptainer {
 
 process {
   executor = 'slurm'
-  clusterOptions = '--account=def-group'
+  clusterOptions = '--account=mbzcp2 --partition=defq'
   maxRetries = 1
   errorStrategy = { task.exitStatus in [125,139] ? 'retry' : 'finish' }
   memory = '4GB'
@@ -56,42 +58,49 @@ executor {
 }
 
 profiles {
-  beluga {
-    max_memory='186G'
+  ada {
+    max_memory='361G'
     max_cpu=40
     max_time='168h'
   }
   
-  narval {
-    max_memory='249G'
-    max_cpu=64
-    max_time='168h'
-  }
 }
 </pre>
 
 Do not worry about the cpus, memory and time of the slurm process. These slurm global options will be overwritten by the cpus, memory and time specified for each process of the workflow defined in modules. 
 
-Do not change anything in the narval and beluga profiles, these are the specs of the machines in those clusters.
+I, Christophe, have changed the profiles to have one that matches ada's.
 
+Now, download all the singularity (load using `module load singularity/3.8.5` ) images needed: https://github.com/RepAdapt/singularity/blob/main/RepAdapt.singularity.genotyping.setup.md
 
-Now, download all the singularity images needed: https://github.com/RepAdapt/singularity/blob/main/RepAdaptSingularity.imagelocations.md
+Create this directory and place them here ():
+<pre>
+cd ~
+mkdir /gpfs01/home/$USER/NXF_SINGULARITY_CACHEDIR
 
-Create this directory and place them here (replace def-group with your account name):
-<pre>mkdir /project/def-group/NXF_SINGULARITY_CACHEDIR</pre>
+singularity pull fastp_0.20.1.sif https://depot.galaxyproject.org/singularity/fastp:0.20.1--h8b12597_0 
+singularity pull bwa_0.7.17.sif https://depot.galaxyproject.org/singularity/bwa:0.7.17--h5bf99c6_8 
+singularity pull samtools_1.16.1.sif https://depot.galaxyproject.org/singularity/samtools:1.16.1--h6899075_0 
+singularity pull gatk_4.4.1.sif https://depot.galaxyproject.org/singularity/gatk4:4.1.0.0--0
+singularity pull picard_2.26.3.sif https://depot.galaxyproject.org/singularity/picard:2.26.3--hdfd78af_0 
+singularity pull bedtools_2.27.1.sif https://depot.galaxyproject.org/singularity/bedtools:2.27.1--0 
+singularity pull gatk_3.8.9.sif https://depot.galaxyproject.org/singularity/gatk:3.8--9 
+singularity pull bcftools_1.16.sif https://depot.galaxyproject.org/singularity/bcftools:1.16--hfe4b78e_1
+singularity pull vcftools_1.16.sif https://depot.galaxyproject.org/singularity/vcftools:0.1.16--pl5321hdcf5f25_9  
+
+mv *.sif /gpfs01/home/$USER/NXF_SINGULARITY_CACHEDIR
+</pre>
 then:
-<pre>export NXF_SINGULARITY_CACHEDIR=/project/def-group/NXF_SINGULARITY_CACHEDIR</pre>
+<pre>export NXF_SINGULARITY_CACHEDIR=/gpfs01/home/$USER/NXF_SINGULARITY_CACHEDIR</pre>
 
 Also add the above export command to your ~/.bashrc
 
 
 Now we have everything ready to start the workflow.
 
-The workflow should be run on a computing node, using the script <b>run_pipeline.sh</b> (submit with sbatch -- give this job only 1 cpu, 8 GB RAM but MAX available run time which is 7 days in narval and beluga). 
+The workflow should be run on a computing node, using the script <b>run_pipeline.sh</b> (submit with sbatch -- give this job only 1 cpu, 8 GB RAM but MAX available run time which is 7 days in ada, although you tend to get better allocation on the slurm queue if you're slightly under the maximun e.g 6-23:00:00). 
 
 Change the profile flag in run_pipeline.sh to either beluga or narval (depending on which one you are using).
-
-
 
 # Options
 
@@ -99,11 +108,10 @@ Change the profile flag in run_pipeline.sh to either beluga or narval (depending
 
 --outdir (default: "./output/") ### this can be changed to any directory
 
+# The ref genome must have the extension '.fasta', to avoid duplicating file create a symbolic link `ln path/to/ref_genome.fna path/to/ref_genome.fasta`
 --ref_genome (No default, give full path)
 
 --gff_file (No default, give full path)
-
-
 
 
 # Important
