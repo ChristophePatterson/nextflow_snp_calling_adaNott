@@ -21,8 +21,9 @@ rclone listremotes
 
 # Location of master dataset of all sequences
 basedata=/gpfs01/home/mbzcp2/data/bigdata_Christophe_header_2025-04-28.csv
+nextflowSeqData=/gpfs01/home/mbzcp2/code/Github/nextflow_snp_calling_adaNott/seq
 
-cd ~/gpfs01/home/mbzcp2/code/Github/nextflow_snp_calling_adaNott/seq
+cd $nextflowSeqData
 
 # Location of sequence data
 output_dir=/gpfs01/home/mbzcp2/data/sticklebacks/seq
@@ -69,9 +70,23 @@ echo "completed download for MacColl_stickleback_lab_2"
 find $rawdownload -name "*.gz" -exec mv {} $output_dir/seq_data/ \;
 
 ## Create link between seq-files in working directory
-### ln -s $seqdata/Uist22518_R1.fastq.gz /gpfs01/home/mbzcp2/code/Github/nextflow_snp_calling_adaNott/seq/seq_files/Uist22518_R1.fastq.gz 
-### ln -s $seqdata/Uist22518_R2.fastq.gz /gpfs01/home/mbzcp2/code/Github/nextflow_snp_calling_adaNott/seq/seq_files/Uist22518_R2.fastq.gz 
-### ln -s $seqdata/Uist22519_R1.fastq.gz /gpfs01/home/mbzcp2/code/Github/nextflow_snp_calling_adaNott/seq/seq_files/Uist22519_R1.fastq.gz 
-### ln -s $seqdata/Uist22519_R2.fastq.gz /gpfs01/home/mbzcp2/code/Github/nextflow_snp_calling_adaNott/seq/seq_files/Uist22519_R2.fastq.gz 
-### ln -s $seqdata/Uist22520_R1.fastq.gz /gpfs01/home/mbzcp2/code/Github/nextflow_snp_calling_adaNott/seq/seq_files/Uist22520_R1.fastq.gz 
-### ln -s $seqdata/Uist22520_R2.fastq.gz /gpfs01/home/mbzcp2/code/Github/nextflow_snp_calling_adaNott/seq/seq_files/Uist22520_R2.fastq.gz 
+# Loop through each line in seq_data to add the seq as a link 
+while IFS= read -r filepath; do
+    # Skip empty lines
+    [ -z "$filepath" ] && continue
+    # Extract the base name
+    basename=$(basename "$filepath")
+    # Create the symbolic link
+    ln -s "$output_dir/seq_data/$basename" "$nextflowSeqData/seq_files/$basename"
+    echo "Linked: $basename"
+done < seq_list.txt
+
+
+##### # If space is an issue use the below code to remove all other sequence files not needed for this analysis
+##### 
+##### awk -F '/' '{print $NF}' /gpfs01/home/mbzcp2/code/Github/nextflow_snp_calling_adaNott/seq/seq_list.txt > seq_list_short.txt
+##### ls /gpfs01/home/mbzcp2/data/sticklebacks/seq/seq_data | grep -v -f seq_list_short.txt | awk '{print "/gpfs01/home/mbzcp2/data/sticklebacks/seq/seq_data/"$0}' > excess_files.txt
+##### 
+##### for f in $(cat excess_files.txt) ; do 
+#####   rm "$f"
+##### done
