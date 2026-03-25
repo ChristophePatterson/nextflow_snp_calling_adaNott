@@ -1,0 +1,175 @@
+RepAdaptID	sampleID	populationID	scientificName	scientificNameID	identificationRemarks	location	locality	countryCode	decimalLatitude	decimalLongitude	geodeticDatum	coordinateUncertaintyInMeters	verbatimDepth	locationRemarks	eventDate
+rawg0173_Gasterosteus_aculeatus_Patterson	alm222068	ALM2	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	alm222070	ALM2	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	alm222072	ALM2	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	alm222073	ALM2	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	alm222075	ALM2	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	anc122172	ANC1	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	anc122173	ANC1	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	anc122175	ANC1	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	anc122176	ANC1	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	anso22092	ANSO	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	anso22098	ANSO	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	anso22103	ANSO	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	anso22104	ANSO	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	cape22016	CAPE	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	cape22023	CAPE	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	cape22025	CAPE	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	cape22026	CAPE	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	cape22027	CAPE	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	coru22120	CORU	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	coru22123	CORU	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Ice22025	Hrau	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		IS	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Ice22026	Hrau	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		IS	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Ice22028	Hrau	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		IS	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Ice22030	Hrau	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		IS	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Ice22032	Hrau	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		IS	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Ice22033	Hrau	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		IS	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Ice22050	Nes1	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		IS	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Ice22051	Nes1	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		IS	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Ice22052	Nes1	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		IS	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	mara22039	RIMA	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	mara22041	RIMA	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	mara22042	RIMA	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	mara22044	RIMA	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalCou1165	COU1	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalCou1166	COU1	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalCou1168	COU1	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalCou1169	COU1	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalGRAN48	GRAN	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalGRAN49	GRAN	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalGRAN50	GRAN	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalGRAN51	CANH	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalGRAN52	CANH	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalGRAN53	CANH	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalGRAN54	CANH	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalLIM3149	LIM3	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalLIM3150	LIM3	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalLIM3151	LIM3	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalLIM3152	LIM3	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalLIM3153	LIM3	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	PgalLIM3154	LIM3	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		PT	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	QbcSGH220020	CROC	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		CA	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	QbcSGH220040	CROC	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		CA	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	QbcSGH220043	CROC	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		CA	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	QbcSGH220048	CROC	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		CA	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	QbcSGH220062	TEMI	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		CA	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	QbcSGH220063	TEMI	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		CA	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	QbcSGH220064	TEMI	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		CA	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	QbcSGH220065	TEMI	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		CA	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	QbcSGH220067	TEMI	Gasterosteus aculeatus	GBIFtaxonID:4286327		NA		CA	NA	NA	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22500	REIV	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Reivil	Scotland	GB	57.6119852951259	-7.51501078140944	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22503	REIV	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Reivil	Scotland	GB	57.6119852951259	-7.51501078140944	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22507	REIV	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Reivil	Scotland	GB	57.6119852951259	-7.51501078140944	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22518	REIV	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Reivil	Scotland	GB	57.6119852951259	-7.51501078140944	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22521	OLAV	Gasterosteus aculeatus	GBIFtaxonID:4286327		Olabhat	Scotland	GB	57.6506504726803	-7.45374268003425	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22523	OLAV	Gasterosteus aculeatus	GBIFtaxonID:4286327		Olabhat	Scotland	GB	57.6506504726803	-7.45374268003425	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22524	OLAV	Gasterosteus aculeatus	GBIFtaxonID:4286327		Olabhat	Scotland	GB	57.6506504726803	-7.45374268003425	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22525	OLAV	Gasterosteus aculeatus	GBIFtaxonID:4286327		Olabhat	Scotland	GB	57.6506504726803	-7.45374268003425	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22527	OLAV	Gasterosteus aculeatus	GBIFtaxonID:4286327		Olabhat	Scotland	GB	57.6506504726803	-7.45374268003425	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22528	OLAV	Gasterosteus aculeatus	GBIFtaxonID:4286327		Olabhat	Scotland	GB	57.6506504726803	-7.45374268003425	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22534	OLST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Olabhat	Scotland	GB	57.6506504726803	-7.45374268003425	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22538	OLST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Olabhat	Scotland	GB	57.6506504726803	-7.45374268003425	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22539	OLST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Olabhat	Scotland	GB	57.6506504726803	-7.45374268003425	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22564	SANN	Gasterosteus aculeatus	GBIFtaxonID:4286327		Sandary	Scotland	GB	57.5853329695703	-7.46572049738405	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22565	SANN	Gasterosteus aculeatus	GBIFtaxonID:4286327		Sandary	Scotland	GB	57.5853329695703	-7.46572049738405	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22568	SANN	Gasterosteus aculeatus	GBIFtaxonID:4286327		Sandary	Scotland	GB	57.5853329695703	-7.46572049738405	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22569	SANN	Gasterosteus aculeatus	GBIFtaxonID:4286327		Sandary	Scotland	GB	57.5853329695703	-7.46572049738405	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22570	SANN	Gasterosteus aculeatus	GBIFtaxonID:4286327		Sandary	Scotland	GB	57.5853329695703	-7.46572049738405	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22574	TROS	Gasterosteus aculeatus	GBIFtaxonID:4286327		Trosabhat	Scotland	GB	57.5848789161633	-7.41370714982924	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22575	TROS	Gasterosteus aculeatus	GBIFtaxonID:4286327		Trosabhat	Scotland	GB	57.5848789161633	-7.41370714982924	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22576	TROS	Gasterosteus aculeatus	GBIFtaxonID:4286327		Trosabhat	Scotland	GB	57.5848789161633	-7.41370714982924	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22577	TROS	Gasterosteus aculeatus	GBIFtaxonID:4286327		Trosabhat	Scotland	GB	57.5848789161633	-7.41370714982924	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22578	TROS	Gasterosteus aculeatus	GBIFtaxonID:4286327		Trosabhat	Scotland	GB	57.5848789161633	-7.41370714982924	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22581	TROS	Gasterosteus aculeatus	GBIFtaxonID:4286327		Trosabhat	Scotland	GB	57.5848789161633	-7.41370714982924	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22586	TRST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Trosabhat	Scotland	GB	57.5848789161633	-7.41370714982924	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22587	TRST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Trosabhat	Scotland	GB	57.5848789161633	-7.41370714982924	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22588	TRST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Trosabhat	Scotland	GB	57.5848789161633	-7.41370714982924	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22590	TRST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Trosabhat	Scotland	GB	57.5848789161633	-7.41370714982924	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22636	AbBh	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Bharpa	Scotland	GB	57.5736642258753	-7.29646023936698	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22637	AbBh	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Bharpa	Scotland	GB	57.5736642258753	-7.29646023936698	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22639	AbBh	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Bharpa	Scotland	GB	57.5736642258753	-7.29646023936698	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22641	AbBh	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Bharpa	Scotland	GB	57.5736642258753	-7.29646023936698	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22643	BHAR	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Bharpa	Scotland	GB	57.5736642258753	-7.29646023936698	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22644	BHAR	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Bharpa	Scotland	GB	57.5736642258753	-7.29646023936698	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22645	BHAR	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Bharpa	Scotland	GB	57.5736642258753	-7.29646023936698	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22647	BHAR	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Bharpa	Scotland	GB	57.5736642258753	-7.29646023936698	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22648	BHAR	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Bharpa	Scotland	GB	57.5736642258753	-7.29646023936698	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22649	BHAR	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Bharpa	Scotland	GB	57.5736642258753	-7.29646023936698	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22651	BHAR	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Bharpa	Scotland	GB	57.5736642258753	-7.29646023936698	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22652	CHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Chadha Ruaidh	Scotland	GB	57.5913111444142	-7.19681325541784	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22653	CHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Chadha Ruaidh	Scotland	GB	57.5913111444142	-7.19681325541784	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22654	CHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Chadha Ruaidh	Scotland	GB	57.5913111444142	-7.19681325541784	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22655	CHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Chadha Ruaidh	Scotland	GB	57.5913111444142	-7.19681325541784	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22656	CHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Chadha Ruaidh	Scotland	GB	57.5913111444142	-7.19681325541784	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22657	CHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Chadha Ruaidh	Scotland	GB	57.5913111444142	-7.19681325541784	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22658	CHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Chadha Ruaidh	Scotland	GB	57.5913111444142	-7.19681325541784	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22659	CHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Chadha Ruaidh	Scotland	GB	57.5913111444142	-7.19681325541784	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22660	CHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Chadha Ruaidh	Scotland	GB	57.5913111444142	-7.19681325541784	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22661	CHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		a Chadha Ruaidh	Scotland	GB	57.5913111444142	-7.19681325541784	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22662	MAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Maighdein	Scotland	GB	57.5955088640654	-7.20411704673102	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22663	MAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Maighdein	Scotland	GB	57.5955088640654	-7.20411704673102	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22664	MAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Maighdein	Scotland	GB	57.5955088640654	-7.20411704673102	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22666	MAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Maighdein	Scotland	GB	57.5955088640654	-7.20411704673102	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22667	MAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Maighdein	Scotland	GB	57.5955088640654	-7.20411704673102	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22669	MAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Maighdein	Scotland	GB	57.5955088640654	-7.20411704673102	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22672	IALA	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ialaidh	Scotland	GB	57.6197299412797	-7.20591190197279	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22673	IALA	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ialaidh	Scotland	GB	57.6197299412797	-7.20591190197279	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22674	IALA	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ialaidh	Scotland	GB	57.6197299412797	-7.20591190197279	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22676	IALA	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ialaidh	Scotland	GB	57.6197299412797	-7.20591190197279	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22678	IALA	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ialaidh	Scotland	GB	57.6197299412797	-7.20591190197279	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22680	IALA	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ialaidh	Scotland	GB	57.6197299412797	-7.20591190197279	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22684	BUAI	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Buaile	Scotland	GB	57.6461528172849	-7.19795704417174	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22685	BUAI	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Buaile	Scotland	GB	57.6461528172849	-7.19795704417174	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22687	BUAI	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Buaile	Scotland	GB	57.6461528172849	-7.19795704417174	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22688	BUAI	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Buaile	Scotland	GB	57.6461528172849	-7.19795704417174	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22690	BUAI	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Buaile	Scotland	GB	57.6461528172849	-7.19795704417174	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22692	CAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Caiginn	Scotland	GB	57.6335266009858	-7.11059224343884	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22693	CAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Caiginn	Scotland	GB	57.6335266009858	-7.11059224343884	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22694	CAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Caiginn	Scotland	GB	57.6335266009858	-7.11059224343884	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22695	CAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Caiginn	Scotland	GB	57.6335266009858	-7.11059224343884	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22696	CAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Caiginn	Scotland	GB	57.6335266009858	-7.11059224343884	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22697	CAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Caiginn	Scotland	GB	57.6335266009858	-7.11059224343884	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22701	CAIG	Gasterosteus aculeatus	GBIFtaxonID:4286327		na Caiginn	Scotland	GB	57.6335266009858	-7.11059224343884	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22713	CEIT	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ceithir Eilean	Scotland	GB	57.5779516065955	-7.25855666765171	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22714	CEIT	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ceithir Eilean	Scotland	GB	57.5779516065955	-7.25855666765171	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22715	CEIT	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ceithir Eilean	Scotland	GB	57.5779516065955	-7.25855666765171	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22716	CEIT	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ceithir Eilean	Scotland	GB	57.5779516065955	-7.25855666765171	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22718	CEIT	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ceithir Eilean	Scotland	GB	57.5779516065955	-7.25855666765171	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22719	CEIT	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ceithir Eilean	Scotland	GB	57.5779516065955	-7.25855666765171	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22720	CEIT	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ceithir Eilean	Scotland	GB	57.5779516065955	-7.25855666765171	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22721	CEIT	Gasterosteus aculeatus	GBIFtaxonID:4286327		Ceithir Eilean	Scotland	GB	57.5779516065955	-7.25855666765171	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22722	TORM	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22723	TORM	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22724	TORM	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22725	TORM	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22726	TORM	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22727	TORM	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22728	TORM	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22729	TORM	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22730	TORM	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22731	TORM	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22732	TOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22733	TOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22734	TOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22736	TOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22737	TOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22738	TOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22739	TOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22740	TOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Tormasad	Scotland	GB	57.5645625897949	-7.32025322532752	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22746	BHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		Bhrusda	Scotland	GB	57.7261767005915	-7.17750141829233	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22747	BHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		Bhrusda	Scotland	GB	57.7261767005915	-7.17750141829233	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22748	BHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		Bhrusda	Scotland	GB	57.7261767005915	-7.17750141829233	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22750	BHRU	Gasterosteus aculeatus	GBIFtaxonID:4286327		Bhrusda	Scotland	GB	57.7261767005915	-7.17750141829233	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22751	BHST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Bhrusda	Scotland	GB	57.7261767005915	-7.17750141829233	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22753	BHST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Bhrusda	Scotland	GB	57.7261767005915	-7.17750141829233	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22754	BHST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Bhrusda	Scotland	GB	57.7261767005915	-7.17750141829233	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22755	BHST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Bhrusda	Scotland	GB	57.7261767005915	-7.17750141829233	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22756	BHST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Bhrusda	Scotland	GB	57.7261767005915	-7.17750141829233	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22759	BHST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Bhrusda	Scotland	GB	57.7261767005915	-7.17750141829233	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22761	HOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Hosta	Scotland	GB	57.6240233627895	-7.48664485140043	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22762	HOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Hosta	Scotland	GB	57.6240233627895	-7.48664485140043	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22765	HOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Hosta	Scotland	GB	57.6240233627895	-7.48664485140043	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22766	HOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Hosta	Scotland	GB	57.6240233627895	-7.48664485140043	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22768	HOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Hosta	Scotland	GB	57.6240233627895	-7.48664485140043	WGS84				
+rawg0173_Gasterosteus_aculeatus_Patterson	Uist22770	HOST	Gasterosteus aculeatus	GBIFtaxonID:4286327		Hosta	Scotland	GB	57.6240233627895	-7.48664485140043	WGS84				
