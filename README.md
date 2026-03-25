@@ -108,7 +108,7 @@ Change the profile flag in run_pipeline.sh to either beluga or narval (depending
 
 --outdir (default: "./output/") ### this can be changed to any directory
 
-# The ref genome must have the extension '.fasta', to avoid duplicating file create a symbolic link `ln path/to/ref_genome.fna path/to/ref_genome.fasta`
+The ref genome must have the extension '.fasta', to avoid duplicating file create a symbolic link `ln path/to/ref_genome.fna path/to/ref_genome.fasta`
 --ref_genome (No default, give full path)
 
 --gff_file (No default, give full path)
