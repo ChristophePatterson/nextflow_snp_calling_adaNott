@@ -23,9 +23,9 @@ mkdir $outputdir
 # 1) vcf
 cp output/final_variants.vcf.gz $outputdir/$runname.vcf.gz
 # 2) Genome seq
-gzip /gpfs01/home/mbzcp2/data/sticklebacks/genomes/GCF_016920845.1/GCF_016920845.1_GAculeatus_UGA_version5_genomic.fasta > $outputdir/$runname.fasta.gz
+gzip -c /gpfs01/home/mbzcp2/data/sticklebacks/genomes/GCF_016920845.1/GCF_016920845.1_GAculeatus_UGA_version5_genomic.fasta > $outputdir/$runname.fasta.gz
 # 3) Genome annotation file
-gzip /gpfs01/home/mbzcp2/data/sticklebacks/genomes/GCF_016920845.1/genomic.gff > $outputdir/$runname.fasta.gz
+gzip -c /gpfs01/home/mbzcp2/data/sticklebacks/genomes/GCF_016920845.1/genomic.gff > $outputdir/$runname.gff.gz
 # 4) Genome amino acid seq
 cp /gpfs01/home/mbzcp2/data/sticklebacks/genomes/GCF_016920845.1/GCF_016920845.1_GAculeatus_UGA_version5_protein.faa.gz $outputdir/$runname.faa.gz
 # 5) Gene depth (orignal)
@@ -37,4 +37,4 @@ cp output/combined_genes.tsv.gz $outputdir/$runname.depth_gene_denovo.gz
 cp output/combined_windows.tsv.gz $outputdir/$runname.depth_gene_5Kb.gz
 
 # 8) Whole genome depth
-gzip output/combined_wg.tsv > $outputdir/$runname.depth_wg.gz
+gzip -c output/combined_wg.tsv > $outputdir/$runname.depth_wg.gz
