@@ -26,7 +26,7 @@ export NXF_SINGULARITY_CACHEDIR=/gpfs01/home/$USER/NXF_SINGULARITY_CACHEDIR
 cd /gpfs01/home/mbzcp2/code/Github/nextflow_snp_calling_adaNott/
 
 # Set run name
-runname="RepAdapt_NF_GasAcu_fw_2026-03-23"
+runname="RepAdapt_NF_GasAcu_fw_2026-03-26"
 
 nextflow run main.nf \
     -name $runname \
@@ -36,5 +36,5 @@ nextflow run main.nf \
     --ref_genome=/gpfs01/home/mbzcp2/data/sticklebacks/genomes/GCF_016920845.1/GCF_016920845.1_GAculeatus_UGA_version5_genomic.fasta \
     --gff_file=/gpfs01/home/mbzcp2/data/sticklebacks/genomes/GCF_016920845.1/genomic.gff \
     --reads "./seq/seq_files/*{R1,R2}.fastq.gz" \
-    --outdir ./output/ \
+    --outdir ./output/$runname/ \
     -profile ada -config nextflow.config -w ./work/

@@ -20,7 +20,7 @@ module load rclone-uon/1.65.2
 rclone listremotes
 
 # Location of master dataset of all sequences
-basedata=/gpfs01/home/mbzcp2/data/bigdata_Christophe_header_2025-04-28.csv
+basedata=/gpfs01/home/mbzcp2/data/bigdata_Christophe_header_2026-03-26.csv
 nextflowSeqData=/gpfs01/home/mbzcp2/code/Github/nextflow_snp_calling_adaNott/seq
 
 cd $nextflowSeqData
@@ -33,7 +33,7 @@ seqdata=$output_dir/seq_data
 rawdownload=$output_dir/raw_download
 
 # Filter out all samples that are not freshwater
-awk -F',' 'NR>1 && ($13=="fw" || $13=="st")' $basedata > fw_seq_data.csv
+awk -F',' 'NR>1 && ($13=="fw" || $13=="st") && ($7=="Uist"||$7=="Portugal"||$7=="Iceland")' $basedata > fw_seq_data.csv
 # Create list of all sequence files that would want to be downloaded
 awk -F "," '{print $5 "/" $2}' fw_seq_data.csv > seq_list.txt
 awk -F "," '{print $5 "/" $3}' fw_seq_data.csv >> seq_list.txt
