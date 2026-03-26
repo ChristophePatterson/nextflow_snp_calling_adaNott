@@ -1,20 +1,24 @@
 library(tidyverse)
+library(lubridate)
 
 ## Read in args
 args <- commandArgs(trailingOnly=T)
+# 
 
 samps <- read_table(args[1], col_names="individual")
 sample_data <- read_csv(args[2], 
             col_names = c("individual","R1_read","R2_read","R0_read","Path","sum_file_size",
                         "Region","Species","Waterbody","Population","species_pair",
-                        "Salinity","Ecotype","Sex","Age")) %>%
+                        "Salinity","Ecotype","Sex","Age","Date")) %>%
                 filter(individual %in% samps$individual)
 
 ## Read in sample site data
-site_data <- read_csv("/gpfs01/home/mbzcp2/data/Loch list definitive lat_lon.csv") %>%
-    mutate(Waterbody = toupper(Code))
+site_data <- read_csv("/gpfs01/home/mbzcp2/data/Global waterbody list definitive lat_lon.csv") %>%
+    mutate(Code = toupper(Code)) %>%
+    filter(!duplicated(Code))
 
-site_data[site_data$Waterbody %in% sample_data$Waterbody,]
+duplicated(site_data$Code)
+
 
 ## List of column info needed
 # RepAdaptID ,sampleID, populationID, scientificName, scientificNameID, identificationRemarks, location, 
@@ -28,7 +32,7 @@ names(site_data)
 ISO3166 <- cbind.data.frame(Region = c("Portugal", "Iceland", "Quebec", "Uist"), countryCode = c("PT","IS","CA","GB"))
 # Join sample data with sample site data
 sample_data <- sample_data %>%
-    select(individual, Region, Waterbody, Population) %>%
+    select(individual, Region, Waterbody, Population, Date) %>%
     mutate(RepAdaptID = "rawg0173_Gasterosteus_aculeatus_Patterson",
             scientificName = "Gasterosteus aculeatus",
             scientificNameID = "GBIFtaxonID:4286327",
@@ -38,10 +42,11 @@ sample_data <- sample_data %>%
             verbatimDepth = "",
             locality = "",
             locationRemarks = "",
-            eventDate = "") %>%
+            eventDate = ymd(as.Date(Date, format = "%d/%m/%Y"))) %>%
+    mutate(Code = toupper(ifelse(Region == "Portugal", Population, Waterbody))) %>%
+    left_join(site_data[,c("Code", "Name", "lon", "lat")], by = "Code") %>%
     rename(sampleID = individual,
             populationID = Population) %>%
-    left_join(site_data[,c("Waterbody", "Name", "lon", "lat")], by = "Waterbody") %>%
     rename(decimalLatitude = lat, decimalLongitude = lon,
             location = Name) %>%
     left_join(ISO3166, by = "Region") %>%

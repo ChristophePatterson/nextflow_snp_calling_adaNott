@@ -1,4 +1,4 @@
-# srun -t 6-23:00:00 -c 1 --mem=8G --pty bash
+# srun -t 8:00:00 -c 1 --mem=1G --pty bash
 
 # Load modules
 module purge
