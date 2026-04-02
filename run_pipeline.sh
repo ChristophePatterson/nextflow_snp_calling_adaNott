@@ -26,15 +26,15 @@ export NXF_SINGULARITY_CACHEDIR=/gpfs01/home/$USER/NXF_SINGULARITY_CACHEDIR
 cd /gpfs01/home/mbzcp2/code/Github/nextflow_snp_calling_adaNott/
 
 # Set run name
-runname="RepAdapt_NF_GasAcu_fw_2026-03-26"
+runname="RepAdapt_NF_GasAcu_v5_fw_2026-04-22"
 
 nextflow run main.nf \
     -name $runname \
     -with-report ${runname}_report.html \
     -with-trace ${runname}_trace.txt \
     -with-timeline ${runname}_timeline.txt \
-    --ref_genome=/gpfs01/home/mbzcp2/data/sticklebacks/genomes/GCF_016920845.1/GCF_016920845.1_GAculeatus_UGA_version5_genomic.fasta \
-    --gff_file=/gpfs01/home/mbzcp2/data/sticklebacks/genomes/GCF_016920845.1/genomic.gff \
+    --ref_genome=/gpfs01/home/mbzcp2/data/sticklebacks/genomes/stickleback_v5.0.1_assembly.fa.gz \
+    --gff_file=/gpfs01/home/mbzcp2/data/sticklebacks/genomes/stickleback_v5_ensembl_genes.gff3 \
     --reads "./seq/seq_files/*{R1,R2}.fastq.gz" \
     --outdir ./output/$runname/ \
     -profile ada -config nextflow.config -w ./work/
